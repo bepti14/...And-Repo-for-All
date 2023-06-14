@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Form">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <toolbar id="e13f4">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="ca387" class="javax.swing.JButton" binding="archiwizujButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Archiwizuj"/>
+            </properties>
+          </component>
+          <component id="dea6a" class="javax.swing.JButton" binding="zapiszButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Zapisz"/>
+            </properties>
+          </component>
+          <vspacer id="1aded">
+            <constraints/>
+          </vspacer>
+          <component id="79e94" class="javax.swing.JButton" binding="walidujButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Waliduj"/>
+            </properties>
+          </component>
+          <component id="4745f" class="javax.swing.JButton" binding="ustawieniaButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Ustawienia"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+      <scrollpane id="cb190">
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="271ff" class="javax.swing.JList" binding="list1" default-binding="true">
+            <constraints/>
+            <properties>
+              <model>
+                <item value="895-local.conf"/>
+                <item value="774-local.conf"/>
+                <item value="485-ekh33.conf"/>
+              </model>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <tabbedpane id="7930b" binding="tabbedPane1" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="ef70b" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints>
+              <tabbedpane title="Konfiguracja"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="bc337" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Nazwa pliku VHosta"/>
+                </properties>
+              </component>
+              <component id="e62cb" class="javax.swing.JTextField" binding="a00Ygp4ConfTextField" default-binding="true">
+                <constraints/>
+                <properties>
+                  <text value="00-ygp4.conf"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c96fa" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <tabbedpane title="Zawartosc pliku"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children/>
+          </grid>
+        </children>
+      </tabbedpane>
+    </children>
+  </grid>
+</form>
